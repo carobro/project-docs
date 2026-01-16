@@ -1,0 +1,35 @@
+site_name: "Project Documentation"
+site_url: "https://username.github.io/project-docs"
+site_description: "Comprehensive documentation for the Project."
+site_author: "Engineering Team"
+
+theme:
+  name: "material"
+  palette:
+    primary: "blue"
+    accent: "light blue"
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - content.code.annotate
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Architecture: architecture.md
+  - Setup: setup.md
+  - Usage: usage.md
+  - API Reference: api.md
+  - FAQ: faq.md
+  - Changelog: changelog.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.arithmatex
