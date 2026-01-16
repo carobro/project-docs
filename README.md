@@ -1,46 +1,45 @@
 # Project Documentation Template Repository
 
-# This is a fully functional MkDocs-based template repository.
+This is a fully functional MkDocs-based template repository.
 
 # Directory Structure:
+ project-docs-template/
 
-# project-docs-template/
+├── docs/
 
-# ├── docs/
+│   ├── index.md
 
-# │   ├── index.md
+│   ├── introduction.md
 
-# │   ├── introduction.md
+│   ├── architecture.md
 
-# │   ├── architecture.md
+│   ├── setup.md
 
-# │   ├── setup.md
+│   ├── usage.md
 
-# │   ├── usage.md
+│   ├── api.md
 
-# │   ├── api.md
+│   ├── faq.md
 
-# │   ├── faq.md
+│   ├── changelog.md
 
-# │   ├── changelog.md
+│   └── assets/
 
-# │   └── assets/
+│       ├── images/
 
-# │       ├── images/
+│       │   └── architecture.png  # Placeholder diagram
 
-# │       │   └── architecture.png  # Placeholder diagram
+│       └── css/
 
-# │       └── css/
+│           └── custom.css
 
-# │           └── custom.css
+├── .github/workflows/deploy-pages.yml
 
-# ├── .github/workflows/deploy-pages.yml
+├── README.md
 
-# ├── README.md
+├── mkdocs.yml
 
-# ├── mkdocs.yml
-
-# └── requirements.txt
+└── requirements.txt
 
 ---
 
